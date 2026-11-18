@@ -1,10 +1,10 @@
 {
     "extension_name": {
-        "message": "SelfScroll Extension",
+        "message": "SelfScroll",
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "This is SelfScroll Extension. You should tell us what your extension does here.",
+        "message": "Automatically scroll web pages up or down with customizable speed controls.",
         "description": "Description of what the extension does."
     }
 }

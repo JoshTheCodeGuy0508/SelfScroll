@@ -1,6 +1,7 @@
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Received request: ", request);
+// Background service worker for SelfScroll
+const api = typeof browser !== 'undefined' ? browser : chrome;
 
-    if (request.greeting === "hello")
-        return Promise.resolve({ farewell: "goodbye" });
+// Listen for extension installation or update
+api.runtime.onInstalled.addListener(() => {
+    console.log('SelfScroll extension installed and ready.');
 });

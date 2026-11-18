@@ -2,10 +2,88 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="popup.css">
     <script type="module" src="popup.js"></script>
 </head>
 <body>
-    <strong>Hello World!</strong>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="title-group">
+                <img src="images/icon-48.png" class="app-logo-icon" width="22" height="22" alt="SelfScroll Logo">
+                <h1 class="title">SelfScroll</h1>
+            </div>
+            <div id="statusBadge" class="status-badge stopped">
+                <span class="status-dot"></span>
+                <span id="statusText">Stopped</span>
+            </div>
+        </header>
+
+        <!-- Unavailable Warning (hidden by default) -->
+        <div id="unavailableNotice" class="notice-box hidden">
+            <span>Cannot scroll this page. Please open a regular website.</span>
+        </div>
+
+        <div id="controlsGroup" class="controls-group">
+            <!-- Start / Stop Primary Button -->
+            <button id="toggleBtn" class="primary-btn start-state" type="button">
+                <span class="btn-icon" id="toggleIcon">▶</span>
+                <span class="btn-text" id="toggleText">Start Scrolling</span>
+            </button>
+
+            <!-- Direction Selection -->
+            <section class="section">
+                <div class="section-label">DIRECTION</div>
+                <div class="segmented-control" role="group" aria-label="Scroll Direction">
+                    <button type="button" id="dirDownBtn" class="segment-btn active" data-direction="down">
+                        <span class="segment-icon">↓</span>
+                        <span>Down</span>
+                    </button>
+                    <button type="button" id="dirUpBtn" class="segment-btn" data-direction="up">
+                        <span class="segment-icon">↑</span>
+                        <span>Up</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Speed Control -->
+            <section class="section">
+                <div class="section-header">
+                    <span class="section-label">SPEED</span>
+                    <span class="speed-info">
+                        <strong id="speedValue">30</strong>
+                        <span id="speedDescriptor" class="speed-desc">Normal (23 px/s)</span>
+                    </span>
+                </div>
+
+                <div class="slider-wrapper">
+                    <button type="button" id="speedMinusBtn" class="stepper-btn" aria-label="Decrease speed">−</button>
+                    <div class="slider-track-container">
+                        <input type="range" id="speedSlider" min="1" max="100" value="30" step="1" aria-label="Scrolling speed">
+                        <div class="slider-labels">
+                            <span class="slider-label-left">🐌 Slow</span>
+                            <span class="slider-label-right">⚡ Super Fast</span>
+                        </div>
+                    </div>
+                    <button type="button" id="speedPlusBtn" class="stepper-btn" aria-label="Increase speed">+</button>
+                </div>
+
+                <!-- Speed Presets -->
+                <div class="presets-row" role="group" aria-label="Speed presets">
+                    <button type="button" class="preset-chip" data-speed="1">Min</button>
+                    <button type="button" class="preset-chip" data-speed="15">Slow</button>
+                    <button type="button" class="preset-chip" data-speed="35">Normal</button>
+                    <button type="button" class="preset-chip" data-speed="65">Fast</button>
+                    <button type="button" class="preset-chip" data-speed="100">Max</button>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <span class="footer-tip">💡 Tip: Press <kbd>Esc</kbd> on page to stop</span>
+        </footer>
+    </div>
 </body>
 </html>
