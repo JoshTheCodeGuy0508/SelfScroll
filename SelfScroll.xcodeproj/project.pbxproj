@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1CA4CE830AD254700D6D9AD /* SelfScroll Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E1CA4CE730AD254700D6D9AD /* SelfScroll Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1CA4CD430AD254700D6D9AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1CA4CB130AD254600D6D9AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1CA4CB830AD254600D6D9AD;
+			remoteInfo = SelfScroll;
+		};
+		E1CA4CDE30AD254700D6D9AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1CA4CB130AD254600D6D9AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1CA4CB830AD254600D6D9AD;
+			remoteInfo = SelfScroll;
+		};
+		E1CA4CE930AD254700D6D9AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1CA4CB130AD254600D6D9AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1CA4CE630AD254700D6D9AD;
+			remoteInfo = "SelfScroll Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1CA4D0630AD254800D6D9AD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				E1CA4CE830AD254700D6D9AD /* SelfScroll Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E1CA4CB930AD254600D6D9AD /* SelfScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CA4CD330AD254700D6D9AD /* SelfScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CA4CDD30AD254700D6D9AD /* SelfScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CA4CE730AD254700D6D9AD /* SelfScroll Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SelfScroll Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E1CA4D0030AD254800D6D9AD /* Exceptions for "SelfScroll Extension" folder in "SelfScroll Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E1CA4CE630AD254700D6D9AD /* SelfScroll Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E1CA4CBB30AD254600D6D9AD /* SelfScroll */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SelfScroll;
+			sourceTree = "<group>";
+		};
+		E1CA4CD630AD254700D6D9AD /* SelfScrollTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SelfScrollTests;
+			sourceTree = "<group>";
+		};
+		E1CA4CE030AD254700D6D9AD /* SelfScrollUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SelfScrollUITests;
+			sourceTree = "<group>";
+		};
+		E1CA4CEB30AD254700D6D9AD /* SelfScroll Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E1CA4D0030AD254800D6D9AD /* Exceptions for "SelfScroll Extension" folder in "SelfScroll Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "SelfScroll Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1CA4CB630AD254600D6D9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		E1CA4CD030AD254700D6D9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		E1CA4CDA30AD254700D6D9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		E1CA4CE430AD254700D6D9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1CA4CB030AD254600D6D9AD = {
+			isa = PBXGroup;
+			children = (
+				E1CA4CBB30AD254600D6D9AD /* SelfScroll */,
+				E1CA4CD630AD254700D6D9AD /* SelfScrollTests */,
+				E1CA4CE030AD254700D6D9AD /* SelfScrollUITests */,
+				E1CA4CEB30AD254700D6D9AD /* SelfScroll Extension */,
+				E1CA4CBA30AD254600D6D9AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1CA4CBA30AD254600D6D9AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1CA4CB930AD254600D6D9AD /* SelfScroll.app */,
+				E1CA4CD330AD254700D6D9AD /* SelfScrollTests.xctest */,
+				E1CA4CDD30AD254700D6D9AD /* SelfScrollUITests.xctest */,
+				E1CA4CE730AD254700D6D9AD /* SelfScroll Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1CA4CB830AD254600D6D9AD /* SelfScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CA4D0730AD254800D6D9AD /* Build configuration list for PBXNativeTarget "SelfScroll" */;
+			buildPhases = (
+				E1CA4CB530AD254600D6D9AD /* Sources */,
+				E1CA4CB630AD254600D6D9AD /* Frameworks */,
+				E1CA4CB730AD254600D6D9AD /* Resources */,
+				E1CA4D0630AD254800D6D9AD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1CA4CEA30AD254700D6D9AD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E1CA4CBB30AD254600D6D9AD /* SelfScroll */,
+			);
+			name = SelfScroll;
+			productName = SelfScroll;
+			productReference = E1CA4CB930AD254600D6D9AD /* SelfScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1CA4CD230AD254700D6D9AD /* SelfScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CA4D0A30AD254800D6D9AD /* Build configuration list for PBXNativeTarget "SelfScrollTests" */;
+			buildPhases = (
+				E1CA4CCF30AD254700D6D9AD /* Sources */,
+				E1CA4CD030AD254700D6D9AD /* Frameworks */,
+				E1CA4CD130AD254700D6D9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1CA4CD530AD254700D6D9AD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E1CA4CD630AD254700D6D9AD /* SelfScrollTests */,
+			);
+			name = SelfScrollTests;
+			productName = SelfScrollTests;
+			productReference = E1CA4CD330AD254700D6D9AD /* SelfScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1CA4CDC30AD254700D6D9AD /* SelfScrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CA4D0D30AD254800D6D9AD /* Build configuration list for PBXNativeTarget "SelfScrollUITests" */;
+			buildPhases = (
+				E1CA4CD930AD254700D6D9AD /* Sources */,
+				E1CA4CDA30AD254700D6D9AD /* Frameworks */,
+				E1CA4CDB30AD254700D6D9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1CA4CDF30AD254700D6D9AD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E1CA4CE030AD254700D6D9AD /* SelfScrollUITests */,
+			);
+			name = SelfScrollUITests;
+			productName = SelfScrollUITests;
+			productReference = E1CA4CDD30AD254700D6D9AD /* SelfScrollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E1CA4CE630AD254700D6D9AD /* SelfScroll Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CA4D0130AD254800D6D9AD /* Build configuration list for PBXNativeTarget "SelfScroll Extension" */;
+			buildPhases = (
+				E1CA4CE330AD254700D6D9AD /* Sources */,
+				E1CA4CE430AD254700D6D9AD /* Frameworks */,
+				E1CA4CE530AD254700D6D9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				E1CA4CEB30AD254700D6D9AD /* SelfScroll Extension */,
+			);
+			name = "SelfScroll Extension";
+			productName = "SelfScroll Extension";
+			productReference = E1CA4CE730AD254700D6D9AD /* SelfScroll Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1CA4CB130AD254600D6D9AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					E1CA4CB830AD254600D6D9AD = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					E1CA4CD230AD254700D6D9AD = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = E1CA4CB830AD254600D6D9AD;
+					};
+					E1CA4CDC30AD254700D6D9AD = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = E1CA4CB830AD254600D6D9AD;
+					};
+					E1CA4CE630AD254700D6D9AD = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = E1CA4CB430AD254600D6D9AD /* Build configuration list for PBXProject "SelfScroll" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1CA4CB030AD254600D6D9AD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E1CA4CBA30AD254600D6D9AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1CA4CB830AD254600D6D9AD /* SelfScroll */,
+				E1CA4CD230AD254700D6D9AD /* SelfScrollTests */,
+				E1CA4CDC30AD254700D6D9AD /* SelfScrollUITests */,
+				E1CA4CE630AD254700D6D9AD /* SelfScroll Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1CA4CB730AD254600D6D9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		E1CA4CD130AD254700D6D9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		E1CA4CDB30AD254700D6D9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		E1CA4CE530AD254700D6D9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1CA4CB530AD254600D6D9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		E1CA4CCF30AD254700D6D9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		E1CA4CD930AD254700D6D9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		E1CA4CE330AD254700D6D9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1CA4CD530AD254700D6D9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1CA4CB830AD254600D6D9AD /* SelfScroll */;
+			targetProxy = E1CA4CD430AD254700D6D9AD /* PBXContainerItemProxy */;
+		};
+		E1CA4CDF30AD254700D6D9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1CA4CB830AD254600D6D9AD /* SelfScroll */;
+			targetProxy = E1CA4CDE30AD254700D6D9AD /* PBXContainerItemProxy */;
+		};
+		E1CA4CEA30AD254700D6D9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1CA4CE630AD254700D6D9AD /* SelfScroll Extension */;
+			targetProxy = E1CA4CE930AD254700D6D9AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E1CA4D0230AD254800D6D9AD /* Debug configuration for PBXNativeTarget "SelfScroll Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CBAPYY52Q;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SelfScroll Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SelfScroll Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuavarnum.SelfScroll.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E1CA4D0330AD254800D6D9AD /* Release configuration for PBXNativeTarget "SelfScroll Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CBAPYY52Q;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SelfScroll Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SelfScroll Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuavarnum.SelfScroll.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E1CA4D0430AD254800D6D9AD /* Debug configuration for PBXProject "SelfScroll" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9CBAPYY52Q;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1CA4D0530AD254800D6D9AD /* Release configuration for PBXProject "SelfScroll" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9CBAPYY52Q;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E1CA4D0830AD254800D6D9AD /* Debug configuration for PBXNativeTarget "SelfScroll" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CBAPYY52Q;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SelfScroll;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuavarnum.SelfScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E1CA4D0930AD254800D6D9AD /* Release configuration for PBXNativeTarget "SelfScroll" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CBAPYY52Q;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SelfScroll;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuavarnum.SelfScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E1CA4D0B30AD254800D6D9AD /* Debug configuration for PBXNativeTarget "SelfScrollTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CBAPYY52Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuavarnum.SelfScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfScroll.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SelfScroll";
+			};
+			name = Debug;
+		};
+		E1CA4D0C30AD254800D6D9AD /* Release configuration for PBXNativeTarget "SelfScrollTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CBAPYY52Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuavarnum.SelfScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfScroll.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SelfScroll";
+			};
+			name = Release;
+		};
+		E1CA4D0E30AD254800D6D9AD /* Debug configuration for PBXNativeTarget "SelfScrollUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CBAPYY52Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuavarnum.SelfScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SelfScroll;
+			};
+			name = Debug;
+		};
+		E1CA4D0F30AD254800D6D9AD /* Release configuration for PBXNativeTarget "SelfScrollUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CBAPYY52Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshuavarnum.SelfScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SelfScroll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1CA4CB430AD254600D6D9AD /* Build configuration list for PBXProject "SelfScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CA4D0430AD254800D6D9AD /* Debug configuration for PBXProject "SelfScroll" */,
+				E1CA4D0530AD254800D6D9AD /* Release configuration for PBXProject "SelfScroll" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		E1CA4D0130AD254800D6D9AD /* Build configuration list for PBXNativeTarget "SelfScroll Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CA4D0230AD254800D6D9AD /* Debug configuration for PBXNativeTarget "SelfScroll Extension" */,
+				E1CA4D0330AD254800D6D9AD /* Release configuration for PBXNativeTarget "SelfScroll Extension" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		E1CA4D0730AD254800D6D9AD /* Build configuration list for PBXNativeTarget "SelfScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CA4D0830AD254800D6D9AD /* Debug configuration for PBXNativeTarget "SelfScroll" */,
+				E1CA4D0930AD254800D6D9AD /* Release configuration for PBXNativeTarget "SelfScroll" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		E1CA4D0A30AD254800D6D9AD /* Build configuration list for PBXNativeTarget "SelfScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CA4D0B30AD254800D6D9AD /* Debug configuration for PBXNativeTarget "SelfScrollTests" */,
+				E1CA4D0C30AD254800D6D9AD /* Release configuration for PBXNativeTarget "SelfScrollTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		E1CA4D0D30AD254800D6D9AD /* Build configuration list for PBXNativeTarget "SelfScrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CA4D0E30AD254800D6D9AD /* Debug configuration for PBXNativeTarget "SelfScrollUITests" */,
+				E1CA4D0F30AD254800D6D9AD /* Release configuration for PBXNativeTarget "SelfScrollUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1CA4CB130AD254600D6D9AD /* Project object */;
+	validationLevel = 1;
+}
